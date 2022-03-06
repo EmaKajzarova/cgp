@@ -6,7 +6,7 @@
 
 .kontajner {
     width: 100%;
-    background-color: rgb(143, 192, 238);
+    background-color: rgb(57, 63, 126);
     padding-left: 8%;
     padding-right: 8%;
     background-position: center;
@@ -135,5 +135,29 @@ button {
 
 .mail {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+legend {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+li {
+    color: white;
 }
