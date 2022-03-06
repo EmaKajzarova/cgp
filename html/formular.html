@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Formulár</title>
+    <link href="../resources/css/formular.css" type="text/css" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+    <div class="kontajner">
+        <div class="navigacny_panel">
+            <a href="../index.html"><img src="../resources/images/power-plug.png" class="plug"></a>
+            <p class="wernic"><a href="../index.html" class="meno1">WERNIC</a></p>
+            <nav>
+                <ul>
+                    <li class="zoznam"><a href="../html/televizory.html">Televízory</a></li>
+                    <li class="zoznam"><a href="../html/mobilne-telefony.html">Mobilné telefóny</a></li>
+                    <li class="zoznam"><a href="../html/notebooky.html">Notebooky</a></li>
+                    <li class="zoznam"><a href="../html/pracky.html">Práčky</a></li>
+                    <li class="zoznam"><a href="../html/umyvacky.html">Umývačky</a></li>
+                    <li class="zoznam"><a href="../html/o-nas.html">O nás</a></li>
+                </ul>
+            </nav>
+            <img src="../resources/images/align-left.png" class="menu">
+        </div>
+
+        <div class="formular1">
+            <fieldset>
+                <legend>Kontaktné údaje:</legend>
+                <label>Meno: <input type="text" name="meno" size="10" maxlength="100"></label></br>
+                <label>Priezvisko: <input type="text" name="priezvisko" size="15" maxlength="100"></label></br>
+                <label>Vek: <input type="text" name="vek" size="3" max="5"></label></br>
+                <p>
+                    <label for="pohlavie">Pohlavie: </label>
+                    <select name="respondent" id="pohlavie">
+                        <option value="muz">Muž</option>
+                        <option value="zena">Žena</option>
+                        <option value="nechcem">Nechcem uviesť</option>
+                        <option value="ine">Iné</option>
+                    </select>
+                </p>
+                <label>Emailová adresa: <input type="email" name="emailova_adresa" size="30"
+                        maxlength="100"></label></br>
+            </fieldset> </br>
+        </div>
+        <div class="formular2">
+                <fieldset>
+                    <legend>Vaše hodnotenie:</legend>
+                    <p>Páči sa Vám dizajn našej stránky?</br>
+                        <label><input type="radio" name="hodnotenie" value="ano" />ÁNO</label>
+                        <label><input type="radio" name="hodnotenie" value="nie" />NIE</label>
+                    </p>
+                    <p>
+                        <label for="info">Ako ste sa o nás dozvedeli?</label>
+                        <select name="respondent" id="info">
+                            <option value="facebook">Facebook</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="ine">Iné</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="komentar">Zanechajte nám spätnú väzbu :) </label></br>
+                        <textarea rows="6" cols="40" maxlength="1000" id="komentar"></textarea>
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="subscribe" checked="checked" />Prihláste sa na odber
+                            emailových noviniek.</label></br>
+                        <!--<input type="submit" value="Odoslať formulár"/>-->
+                        <button type="submit" onclick="alert('Úspešne ste odoslali formulár')">Odoslať formulár</button>
+                    </p>
+                </fieldset>
+        </div>
+        <div class="riadok">
+            <div class="stlpec kontaktne-udaje">
+                <h4>Kontaktujte nás: </h4>
+                <p>Adresa: Victoria Park
+                    Grove Rd, London E3 5TB, United Kingdom</p>
+                <p>Tel. číslo: +421 987 654 321</p>
+                <a href="mailto:wernic@wernic.com" class="mail">wernic@wernic.com</a>
+            </div>
+            <div class="stlpec unordered-lists">
+                <h5>Odkazy na obrázky</h5>
+                <ul>
+                    <li><a href="https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQSggIJTnuRBQrrcbga9gELELCMpwgaOAo2CAQSE4gn2B6AOxewN6UU3jCmKMkKuBwaGXHQgxuKoqCLrL793x0V1RYeNMpOGo2x7PYgBTAEDAsQjq7-CBoKCggIARIE_1k_1hkQwLEJ3twQkamAEKGAoFc29saWTapYj2AwsKCS9hLzNtZzFjbQokChBvZmZpY2UgZXF1aXBtZW502qWI9gMMCgovbS8wM3F0Z2prChwKCXNwYWNlIGJhctqliPYDCwoJL20vMDNyYjg1ChsKCHBvcnRhYmxl2qWI9gMLCgkvYS83bW5feTcKGwoIdmVydGljYWzapYj2AwsKCS9hLzRoaDNwMAw&sxsrf=APq-WBuVBqSt3vBihnpk72zHD5EyaAWFZQ:1646569603323&q=apple+laptop+best+buy&tbm=isch&ved=2ahUKEwiozLbivbH2AhXRgv0HHR_vCJcQwg4oAHoECAEQMw&biw=1536&bih=754&dpr=1.25#imgrc=hWVB4Ya5cNwz4M" class="odkazy">Apple MacBook Air MQD32SL/A</a></li>
+                    <li><a href="https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQSgwIJTOqv4L2pfm8a9wELELCMpwgaOgo4CAQSE4IgT90z0xKPPaMYzR-6GKw8tSkaGzlkxmYDby7KueZ5DAQoDcELYismgjYy5ZogeSAFMAQMCxCOrv4IGgoKCAgBEgRY7DtMDAsQne3BCRqXAQoiCg93YXNoaW5nIG1hY2hpbmXapYj2AwsKCS9tLzAxNzRrMgoYCgVzb2xpZNqliPYDCwoJL2EvM21nMWNtCiAKDXNhbXN1bmcgZ3JvdXDapYj2AwsKCS9tLzA3Z3Y3MgoYCgVjbGVhbtqliPYDCwoJL2EvNTloaDVtChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAM&sxsrf=APq-WBuquhrIjBo1vEFmJgd_w8xGzuZXRg:1646570412554&q=samsung+washing+machine&tbm=isch&ved=2ahUKEwionabkwLH2AhV8R_EDHaBrAnoQwg4oAHoECAEQMw&biw=1536&bih=754&dpr=1.25#imgrc=wJmZkzyxpVTB7M" class="odkazy">Samsung WW90T534DAX/S7</a></li>
+                    <li><a href="https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQSmAIJlo0ro2X4AEoajAILELCMpwgaOgo4CAQSFPgJ2z_1lJqII5BSUBJ4o5hXEIvsSGhphSmoJCcEuE5DfmFmCZI-Q62xuOp0Bm1OO0iAFMAQMCxCOrv4IGgoKCAgBEgQ0RvUTDAsQne3BCRqsAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAKIQoOaG9tZSBhcHBsaWFuY2XapYj2AwsKCS9tLzAxOWR4MQogCg1waWN0dXJlIGZyYW1l2qWI9gMLCgkvbS8wNnozN18KIgoOdGVsZXZpc2lvbiBzZXTapYj2AwwKCi9tLzBieF95M3cM&sxsrf=APq-WBvSKDlPawWXyQLVMHp7ruKhgbwQ-A:1646570535043&q=samsung+un46h5203&tbm=isch&ved=2ahUKEwi8rtqewbH2AhX5hv0HHXaGAoEQwg4oAHoECAEQMw&biw=1536&bih=754&dpr=1.25#imgrc=CLoFNvl_y_g-CM" class="odkazy">Samsung LED TV, 63 Inches, Full HD, Smart TV</a></li>
+                    <li><a href="https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQS-gEJ_1OE5dE0O9Xoa7gELELCMpwgaOgo4CAQSFPkJmjiJI8IExhr0FuUo6AeCFZsDGhonBwEvf3uoOnjak1K6lOFd2u-yphJLiwJwnCAFMAQMCxCOrv4IGgoKCAgBEgQJAx6zDAsQne3BCRqOAQoYCgVzb2xpZNqliPYDCwoJL2EvM21nMWNtChsKCHBvcnRhYmxl2qWI9gMLCgkvYS83bW5feTcKGwoIdmVydGljYWzapYj2AwsKCS9hLzRoaDNwMAodCgpob3Jpem9udGFs2qWI9gMLCgkvYS8ybXF2emMKGQoGcnVnZ2Vk2qWI9gMLCgkvYS9odnFta2gM&sxsrf=APq-WBu-EnKzMjflxBqUgQe-seyYAqw5FA:1646570811466&q=iphone+13+pro+max+silver&tbm=isch&ved=2ahUKEwiGgsKiwrH2AhUq_rsIHc4NDY0Qwg4oAHoECAEQMw&biw=1536&bih=754&dpr=1.25#imgrc=LFvBMnjVIUK1_M" class="odkazy">iPhone 13 Pro Max</a></li>
+                    <li><a href="https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQSjwIJi_1hSxF1thvcagwILELCMpwgaOQo3CAQSE90zzR9P_1gO-Kt0h5gHmM6sljz0aGqYCKKMl5vMHjS37-TuU2Kv6AzfKg5kKev2iIAUwBAwLEI6u_1ggaCgoICAESBF6R7SgMCxCd7cEJGqQBCiIKD21ham9yIGFwcGxpYW5jZdqliPYDCwoJL20vMDE3X2N6CiQKEG9mZmljZSBlcXVpcG1lbnTapYj2AwwKCi9tLzAzcXRnamsKHAoHZnJlZXplctqliPYDDQoLL2cvMTIyYnJzdG4KHQoKaG9yaXpvbnRhbNqliPYDCwoJL2EvMm1xdnpjChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAM&sxsrf=APq-WBvRyv2xhpEIt9PYpjjCxdgm6ftwLQ:1646570875666&q=zmywarka+do+zabudowy+70+cm+wysoka&tbm=isch&ved=2ahUKEwjYlpDBwrH2AhU6h_0HHXoZBmoQwg4oAHoECAEQMw&biw=1536&bih=754&dpr=1.25#imgrc=OFVphHawc4NV4M" class="odkazy">Samsung DW DW60M6050BB/EO</a></li>
+                </ul>
+            </div>
+        </div>
+</body>
+
+
+
+</html>

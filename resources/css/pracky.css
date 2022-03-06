@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kontajner {
+    background-color: rgb(175, 208, 236);
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.plug {
+    width: 50px;
+    cursor: pointer;
+}
+
+.wernic {
+    font-size: 18px;
+    color: white;
+}
+
+.menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+}
+
+.riadok {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding-top: 30px
+}
+
+.stlpec {
+    flex-basis: 50%;
+}
+
+.stlpec1 {
+    flex-basis: 50%;
+    padding-bottom: 10px;
+}
+
+.top {
+    width: 320px;
+    height: 265px;
+    margin-left: 20px;
+}
+
+.hlavny-kontajner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7px;
+}
+
+.obr1 {
+    width: 240px;
+    height: 205px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.obr2 {
+    width: 250px;
+    height: 205px;
+    padding-top: 50px;
+    padding-left: 27px;
+}
+
+.obr3 {
+    width: 270px;
+    height: 205px;
+    padding-top: 50px;
+    padding-left: 17px;
+}
+
+.obr4 {
+    width: 230px;
+    height: 205px;
+    padding-top: 50px;
+    padding-left: 33px;
+}
+
+h5 {
+    font-size: larger;
+    color: rgb(14, 115, 248);
+}
+
+p {
+    padding-top: 10px;
+}
+
+h4 {
+    padding-left: 22px;
+    padding-top: 12px;
+    color: rgb(14, 115, 248);
+}
+
+.nadpis-top {
+    padding-right: 22px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.popis {
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 18px;
+    text-indent: 5px;
+}
+
+.odrazky {
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+
+.cena {
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 23px;
+}
+
+.top-box {
+    background-color: rgb(236, 241, 245);
+    width: 1262px;
+    height: 300px;
+    margin-left: 7px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    background-color: rgb(236, 241, 245);
+    width: 310px;
+    height: 550px;
+}
+
+.kont1 {
+    display: flex;
+}
+
+.box2 {
+    background-color: rgb(236, 241, 245);
+    width: 310px;
+    height: 550px;
+}
+
+.kont2 {
+    display: flex;
+}
+
+.box3 {
+    background-color: rgb(236, 241, 245);
+    width: 310px;
+    height: 550px;
+}
+
+.kont3 {
+    display: flex;
+}
+
+.box4 {
+    background-color: rgb(236, 241, 245);
+    width: 310px;
+    height: 550px;
+}
+
+.kont4 {
+    display: flex;
+}
+
+button {
+    background: rgb(7, 177, 7);
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.tlacitko {
+    padding-left: 60px;
+}
+
+.zoznam {
+    transition: transform 0.5s
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+.cena-top {
+    padding-right: 10px;
+    margin-top: 24px;
+}
+
+.jont-top {
+    display: flex;
+}
+
+.kont-top {
+    margin-top: 10px;
+}
+
+.cena-top {
+    padding-right: 10px;
+    margin-top: 24px;
+}
+
+.stara {
+    text-decoration: line-through;
+    padding-top: 24px;
+    /*padding-left: 7px;*/
+    font-size: medium;
+}
+
+.nova {
+    color: red;
+    padding-left: 10px;
+    padding-top: 24px;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.velky-popis {
+    resize: both;
+    overflow: auto;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: left; /*zarovnanie do bloku sa tu nehodi*/
+    line-height: normal;
+}

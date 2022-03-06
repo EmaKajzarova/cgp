@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(../font/sansation/Sansation_Bold.ttf);
+}
+
+.kontajner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/smart-g0beec122d_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    /*height: 753px;*/
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.plug {
+    width: 50px;
+    cursor: pointer;
+}
+
+.wernic {
+    font-size: 18px;
+}
+
+.menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+
+.riadok {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: azure;
+    font-size: 83px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+/*h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}*/
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 25px;
+}
+
+button{
+    /*width: 250px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;*/
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;    
+}
+
+button::before,
+button::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+button:hover {
+    border: 1px solid /*#acecff*/ white;
+    color: /*#acecff*/ white;
+    background-color: #17181c;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button:link {
+    color: black;
+}
+
+/*.mriezka {
+    border-radius: 10px;
+    padding: 39px;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}*/
+
+
+/*.mriezka:hover {
+    transform: translateY(-5px);
+}*/
+
+/*nav ul li a:hover {
+    color: #acecff;
+}*/
+
+.sale {
+    padding-top: 120px;
+    padding-left: 100px;
+    transition: transform 0.5s;
+}
+
+.doprava {
+    margin-bottom: 48px;
+    padding-left: 100px;
+    transition: transform 0.5s;
+}
+
+.sale:hover {
+    transform: translateY(-5px);
+}
+
+.doprava:hover {
+    transform: translateY(-5px);
+}
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+a {
+    color: black;
+}
+
+.meno {
+    color: white;
+}
+
+.pata {
+    text-align: right;
+}

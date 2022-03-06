@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kontajner {
+    width: 100%;
+    background-color: rgb(143, 192, 238);
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    /*height: 753px;*/
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.plug {
+    width: 50px;
+    cursor: pointer;
+}
+
+.wernic {
+    font-size: 18px;
+    color: white;
+}
+
+.menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+}
+
+.formular1 {
+    padding-top: 60px;
+}
+
+.formular2 {
+    padding-top: 50px;
+}
+
+.kontaktne-udaje {
+    padding-top: 20px;
+
+}
+
+.wernic {
+    color: white;
+}
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+.unordered-lists {
+    padding-left: 300px;
+    padding-top:  20px;
+}*/
+
+.stlpec {
+    flex-basis: 50%;
+}
+
+.riadok {
+    display: flex;
+   /* height: %;
+    align-items: center;*/
+}
+
+button {
+    background-color: rgb(13, 118, 216);
+    border: 1;
+    border-color: white;
+    width: 150px;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.meno1 {
+    text-decoration: none;
+    color: white;
+}
+
+.odkazy {
+    text-decoration: none;
+    color: black;
+}
+
+.odkazy:visited {
+    color: blue;
+}
+
+.odkazy:hover {
+    color: white;
+}
+
+.odkazy:active {
+    color: red;
+}
+
+.odkazy:focus {
+    color: gray;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}

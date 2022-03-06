@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kontajner {
+    background-color: rgb(175, 208, 236);
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.plug {
+    width: 50px;
+    cursor: pointer;
+}
+
+.wernic {
+    font-size: 18px;
+}
+
+.menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+}
+
+/*table th td {
+    border: 1px solid;
+}*/
+
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+th {
+    border: 1px solid   ;
+}
+
+.kontajner-fedex {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tabulka {
+    padding-top: 50px;
+}
